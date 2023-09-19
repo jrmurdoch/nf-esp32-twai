@@ -34,6 +34,7 @@
                 "API_System.IO.Ports": "ON",
                 "API_Hardware.Esp32": "ON",
                 "API_nanoFramework.Hardware.Esp32.Rmt": "ON",
+				"API_nanoFramework.Hardware.Esp32.Twai": "ON",
                 "API_nanoFramework.ResourceManager": "ON",
                 "API_nanoFramework.System.Collections": "ON",
                 "API_nanoFramework.System.Text": "ON",

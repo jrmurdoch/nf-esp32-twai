@@ -36,7 +36,7 @@ option(API_System.Device.UsbStream              "option for System.Device.UsbStr
 # Esp32 only
 option(API_Hardware.Esp32                       "option for Hardware.Esp32")
 option(API_nanoFramework.Hardware.Esp32.Rmt     "option for nanoFramework.Hardware.Esp32.Rmt")
-
+option(API_nanoFramework.Hardware.Esp32.Twai    "option for nanoFramework.Hardware.Esp32.Twai")
 
 # Stm32 only
 option(API_Hardware.Stm32                       "option for Hardware.Stm32")
@@ -176,6 +176,12 @@ endif()
 if(API_nanoFramework.Hardware.Esp32.Rmt)
     ##### API name here (doted name)
     PerformSettingsForApiEntry("nanoFramework.Hardware.Esp32.Rmt")
+endif()
+
+# nanoFramework.Hardware.Esp32.Twai
+if(API_nanoFramework.Hardware.Esp32.Twai)
+    ##### API name here (doted name)
+    PerformSettingsForApiEntry("nanoFramework.Hardware.Esp32.Twai")
 endif()
 
 # nanoFramework.Device.Bluetooth
